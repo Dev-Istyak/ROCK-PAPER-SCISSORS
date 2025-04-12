@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 30px;
+    font-style: oblique;
+    color: aqua;
+}
+
+#choices{
+    margin: 20px 0px 20px 0px;
+
+}
+#choices button{
+    font-size: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #b29c9c;
+    border: none;
+    transition: background-color 0.5s;
+}
+#choices button:hover{
+    background-color: #796060;
+    cursor: pointer;
+    
+}
+#playerdisplay , #computerdisplay{
+    font-size: 2.5rem;
+}
+#Displayresult{
+    font-size: 4.6rem;
+    font-weight: bold;
+}
+
+.greencolor , .gg{
+    color: green;
+}
+.redcolor, .hh{
+    color: red;
+}
+
+.gg, .hh{
+    font-size: 2rem;
+}
+
+
+/* Responsive Font Sizes */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #choices button {
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    #playerdisplay,
+    #computerdisplay {
+        font-size: 1.5rem;
+    }
+
+    #Displayresult {
+        font-size: 2.5rem;
+    }
+} 
