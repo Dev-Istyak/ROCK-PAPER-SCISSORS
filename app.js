@@ -31,7 +31,9 @@ function playgames(playerChoice){
     playerDisplay.textContent=`PLAYER: ${playerChoice}`
     ComputerDisplay.textContent=`COMPUTER: ${computerChoice}`
     DisplayResult.textContent=result;
-    DisplayResult.classList.remove("greencolor","redcolor")
+    DisplayResult.classList.remove("greencolor","redcolor");
+    
+    
 
     switch(result){
         case "YOU WIN":
@@ -45,3 +47,14 @@ function playgames(playerChoice){
             computerscoreDisplay.textContent=computerscore;
     }
 }
+function resetbutton(){
+   let playerscore=0;
+   let computerscore=0;
+    playerscoreDisplay.textContent=playerscore;
+    computerscoreDisplay.textContent=computerscore;
+    playerDisplay.textContent="Player:";
+    ComputerDisplay.textContent="Computer:"
+    DisplayResult.textContent="";
+    DisplayResult.classList.remove("greencolor","redcolor");
+};
+
