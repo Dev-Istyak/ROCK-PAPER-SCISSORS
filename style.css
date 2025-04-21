@@ -36,6 +36,15 @@ h1{
     font-size: 4.6rem;
     font-weight: bold;
 }
+#reset{
+    margin-top: 20px;
+    background-color: #7f89f7;
+    color: yellow;
+    border: none;
+    height: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
 
 .greencolor , .gg{
     color: green;
@@ -43,6 +52,7 @@ h1{
 .redcolor, .hh{
     color: red;
 }
+
 
 .gg, .hh{
     font-size: 2rem;
