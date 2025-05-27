@@ -48,8 +48,8 @@ function playgames(playerChoice){
     }
 }
 function resetbutton(){
-   let playerscore=0;
-   let computerscore=0;
+    playerscore=0;
+    computerscore=0;
     playerscoreDisplay.textContent=playerscore;
     computerscoreDisplay.textContent=computerscore;
     playerDisplay.textContent="Player:";
